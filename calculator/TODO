@@ -1,0 +1,15 @@
+- Visuals
+    - Make the calculator "pretty"
+    - allow for keyboard to be used
+        - little buggy at the moment, can be something that I come back
+            to at a later date
+- Funcationality 
+    - add decimal capability 
+    - backspace (number for now. maybe entire string eventually) @done
+    
+Archive:
+- Functionality @done 
+    - if I click 4 +* 4 it should evaluate 4*4, currently evaluates as 4+(0 from screen)*4 = 0 @done
+    - subtract with negatives not working properly @done
+    - after clear is called every eval's first num is 0 @done
+    - round numbers @done
