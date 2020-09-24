@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.gridSection{
+    height:auto;
+    background: red;
+    margin: 0.5px 0.5px;
+    flex-basis:auto;
+}
+.main{
+    justify-content: center;
+    height:50vh;
+    width:100vw;
+    display:flex;
+    flex-wrap: wrap;        
+}
+.activePanel{
+    background-color: #438815;
+}
+.button{
+    width: 15vw;
+    height: 5vh;
+}
