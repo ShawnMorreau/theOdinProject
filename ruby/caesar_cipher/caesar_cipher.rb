@@ -3,6 +3,7 @@
 
 UPPER_MIN_MAX = [65, 90]
 LOWER_MIN_MAX = [97, 122]
+NUM_LETTERS = 26
 
 def shift_letter(letter, offset, min_max)
   shifted_val = letter.ord + offset
@@ -21,10 +22,10 @@ def caesar_cipher(string, offset)
     return string
   end
   string_arr = string.split("")
-  if offset > 26
-    offset %= 26
-  elsif offset < -26
-    offset %= -26
+  if offset > NUM_LETTERS
+    offset %= NUM_LETTERS
+  elsif offset < -NUM_LETTERS
+    offset %= -NUM_LETTERS
   end
 
   string_arr.map! do |letter|
